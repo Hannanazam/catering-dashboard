@@ -1,0 +1,64 @@
+.order_steps .btn-toolbar.sw-toolbar.sw-toolbar-bottom.justify-content-end{
+	display: none;
+}
+.card .card-body {
+    padding: 1rem;
+}
+.notification_section .list-thumbnail{
+	height: 60px;
+}
+.notification_section .position-relative{
+	margin: auto;
+}
+.notification_section .list-item-heading{
+	margin-bottom: 3px;
+}
+.order_steps.sw-main>ul.step-anchor>li>a{
+	min-width: 80px;
+}
+.order_steps.sw-main>ul.step-anchor{
+	flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.order_steps.sw-main>ul.step-anchor>li>a, .sw-main>ul.step-anchor>li>a:focus, .sw-main>ul.step-anchor>li>a:hover{
+	color: #000 ;
+}
+.order_main{
+	height: fit-content;
+}
+.tab_child.active{
+	border: 1px solid #db9e30;
+}
+.tab_parent{
+	border: 3px solid transparent;
+	cursor: pointer;
+}
+.tab_parent.active{
+	border: 3px solid #db9e30;
+}
+/* width */
+.order_steps .card-header:hover::-webkit-scrollbar {
+	opacity: 1;
+}
+.order_steps .card-header::-webkit-scrollbar {
+	width: auto;
+	height: 4px;
+	opacity: 0;
+  }
+  
+  /* Track */
+  .order_steps .card-header::-webkit-scrollbar-track {
+	background: transparent;
+  }
+  
+  /* Handle */
+  .order_steps .card-header::-webkit-scrollbar-thumb {
+	background: #ddd;
+	border-radius: 10px;
+}
+  
+  /* Handle on hover */
+  .order_steps .card-header::-webkit-scrollbar-thumb:hover {
+	background: rgb(209, 209, 209);
+  }
